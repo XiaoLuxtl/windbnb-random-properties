@@ -3,8 +3,8 @@ import PropTypes from "prop-types";
 export function Card({ data }) {
   console.log(data);
   return (
-    <>
-      <div className="w-full max-w-sm text-gray-900 dark:text-stone-100">
+    <div className="w-full text-gray-900 dark:text-stone-100">
+      <div className="w-11/12 max-w-11/12 md:max-w-sm m-auto">
         <a href="#">
           <img
             className="rounded-3xl mb-4 aspect-video h-72 object-cover"
@@ -44,7 +44,7 @@ export function Card({ data }) {
           <p className="font-semibold">{data.description}</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
