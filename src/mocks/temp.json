@@ -1,0 +1,30 @@
+{
+  "stay": [
+    {
+      "id": "1107910600",
+      "country": "Mexico",
+      "city": "Monterrey",
+      "avgRating": 4.5,
+      "info": {
+        "beds": 3,
+        "rooms": 2,
+        "clean": 3,
+        "superhost": false
+      },
+      "pictures": [
+        {
+          "id": "1107910603",
+          "picture": "https://a0.muscache.com/im/pictures/6da472d7-c848-4445-9258-5a0307c5a697.jpg?im_w=720"
+        },
+        {
+          "id": "1107910604",
+          "picture": "https://a0.muscache.com/im/pictures/6da472d7-c848-4445-9258-5a0307c5a697.jpg?im_w=720"
+        },
+        {
+          "id": "1107910605",
+          "picture": "https://a0.muscache.com/im/pictures/6da472d7-c848-4445-9258-5a0307c5a697.jpg?im_w=720"
+        }
+      ]
+    }
+  ]
+}
