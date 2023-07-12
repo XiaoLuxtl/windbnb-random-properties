@@ -15,11 +15,12 @@ function isSuperHost() {
 
 export function genLocation(n = 1) {
   const location = { stay: [] };
+  let { country } = getLocation();
 
   let i = 0;
   while (i < n) {
     let tmpId = randomNumber(1000000000, 9999999990);
-    let { country, city } = getLocation();
+    let { city } = getLocation();
     let { type, description } = genDescription();
     let isSuper = isSuperHost();
 
