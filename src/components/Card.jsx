@@ -4,10 +4,10 @@ export function Card({ data }) {
   console.log(data);
   return (
     <div className="w-full text-gray-900 dark:text-stone-100">
-      <div className="w-11/12 max-w-11/12 md:max-w-sm m-auto">
+      <div className="w-11/12 max-w-11/12 md:w-full md:max-w-sm m-auto">
         <a href="#">
           <img
-            className="rounded-3xl mb-4 aspect-video h-72 object-cover"
+            className="rounded-3xl mb-4 aspect-video h-72 object-cover bg-stone-200 transition-all ease-in"
             src={data.pictures[0].picture}
             alt="product image"
           />
