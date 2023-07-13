@@ -13,9 +13,12 @@ function isSuperHost() {
   return randomNumber <= 0.1;
 }
 
-export function genLocation(n = 1) {
+export function genLocation(n = 1, country = null) {
   const location = { stay: [] };
-  let { country } = getLocation();
+
+  if (!country) {
+    country = getLocation().country;
+  }
 
   let i = 0;
   while (i < n) {
