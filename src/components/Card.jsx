@@ -4,7 +4,7 @@ export function Card({ data }) {
   console.log(data);
   return (
     <div className="w-full text-gray-900 dark:text-stone-100">
-      <div className="w-11/12 max-w-11/12 md:w-full md:max-w-sm m-auto">
+      <div className="w-full  m-auto">
         <a href="#">
           <img
             className="rounded-3xl mb-4 aspect-video h-72 object-cover bg-stone-200 transition-all ease-in"
@@ -14,7 +14,7 @@ export function Card({ data }) {
         </a>
         <div className="pb-5">
           <div className="flex justify-between items-center mb-4">
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2 h-12">
               {data.super && (
                 <div className="text-sm border-2 font-bold border-stone-100 p-2 rounded-full">
                   <p>SUPER HOST</p>
@@ -22,7 +22,7 @@ export function Card({ data }) {
               )}
               <a href="#">
                 <h5 className="text-sm racking-tight text-gray-700 dark:text-stone-300">
-                  {data.type}
+                  {data.type.charAt(0).toUpperCase() + data.type.slice(1)}
                 </h5>
               </a>
             </div>
