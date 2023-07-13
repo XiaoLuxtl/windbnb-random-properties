@@ -14,7 +14,7 @@ export function Card({ data }) {
         </a>
         <div className="pb-5">
           <div className="flex justify-between items-center mb-4">
-            <div className="flex items-center gap-2 h-12">
+            <div className="flex items-center gap-2 h-8">
               {data.super && (
                 <div className="text-sm border-2 font-bold border-stone-100 p-2 rounded-full">
                   <p>SUPER HOST</p>
