@@ -45,7 +45,7 @@ export function genDescription() {
       Math.floor(Math.random() * descriptions[randomType].length)
     ];
   return {
-    type: randomType.charAt(0).toUpperCase() + randomType.slice(1),
+    type: randomType,
     description: randomDescription,
   };
 }
