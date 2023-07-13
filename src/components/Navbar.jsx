@@ -1,6 +1,4 @@
-import React from "react";
-
-export function Navbar(props) {
+export function Navbar() {
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
@@ -19,7 +17,7 @@ export function Navbar(props) {
               />
             </svg>
 
-            <span className="pl-2 self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="pl-2 self-center text-2xl poppins font-bold whitespace-nowrap dark:text-white">
               windbnb
             </span>
           </a>
