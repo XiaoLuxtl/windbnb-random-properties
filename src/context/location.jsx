@@ -8,12 +8,15 @@ export const LocationContext = createContext();
 // luego lo proveemos
 export function LocationProvider({ children }) {
   const [country, setCountry] = useState(getLocation().country);
+  const [city, setCity] = useState(getLocation().city);
 
   return (
     <LocationContext.Provider
       value={{
         country,
         setCountry,
+        city,
+        setCity,
       }}
     >
       {children}
