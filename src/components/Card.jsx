@@ -1,10 +1,9 @@
 import PropTypes from "prop-types";
 
 export function Card({ data }) {
-  console.log(data);
   return (
     <div className="w-full text-gray-900 dark:text-stone-100">
-      <div className="w-full  m-auto">
+      <div className="w-full m-auto">
         <a href="#">
           <img
             className="rounded-3xl mb-4 aspect-video h-72 object-cover bg-stone-200 transition-all ease-in"
