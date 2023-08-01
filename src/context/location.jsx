@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 import citiesList from "../mocks/cities.json";
 import { useEffect } from "react";
 
-// creamos el contexto
+// create context
 export const LocationContext = createContext();
 
-// luego lo proveemos
+// provide the context
 export function LocationProvider({ children }) {
   const [country, setCountry] = useState(() => {
     // Get an array of all countries
